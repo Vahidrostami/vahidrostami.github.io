@@ -21,6 +21,14 @@ Vahid Rostami
 		display: block;
 	}
 
+	.contact-style {
+		margin: 4em;
+	}
+
+	.contact-item {
+		margin:1em;
+	}
+
 	body {
 		line-height: 1;
 	}
