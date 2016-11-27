@@ -13,6 +13,9 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<script src="jquery.min.js"></script>
+		<script src="bootstrap.min.js"></script>
 	</head>
 	<body>
 
@@ -22,10 +25,10 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<a href="#me" class="icon fa-home active"><span>Home</span></a>
-						<a href="#work" class="icon fa-folder"><span>Publication</span></a>
-						<a href="#cv" class="icon fa-superpowers"><span>CV</span></a>
+						<a href="#work" class="icon fa-newspaper-o"><span>Publication</span></a>
+						<a href="#cv" class="icon fa-history"><span>CV</span></a>
+						<a href="#artwork" class="icon fa-film"><span>Artwork</span></a>
 						<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
-						<a href="#" class="icon fa-archive"><span>Artwork</span></a>
 					</nav>
 
 				<!-- Main -->
@@ -48,8 +51,6 @@
 								<header>
 									<h2>Publication</h2>
 								</header>
-
-
 							</article>
 
 						<!-- CV -->
@@ -57,15 +58,123 @@
 								<header>
 									<h2>Curriculum Vitae</h2>
 								</header>
+								<div style="margin: 2em;">
+									<div style="margin-bottom: 1em;">The complete version as PDF: <a href="cv.pdf">CV</a></div>
+									<table class="table">
+										<tr>
+											<td style="width: 10em;">Since 11/2012</td>
+											<td>PhD student at the Institute of Neuroscience and Medicine (INM-6),
+												Computational and Systems Neuroscience,
+												Forschungszentrum Juelich, Juelich, Germany
+											</td>
+										</tr>
+										<tr>
+											<td>10/2010 - 10/2012</td>
+											<td>Student of the Master of Physics at
+												the Rheinische Friedrich-Wilhelms University of Bonn, Bonn, Germany
+												(thesis: 'Nonlinear dynamics and stochastic processes of classical
+												and quantum transport of ultracold atoms in driven ratchet systems')
+											</td>
+										</tr>
+										<tr>
+											<td>10/2005 - 07/2010</td>
+											<td>Student of the Bachelor of Physics at
+												the Polytechnic University of Tehran, Tehran, Iran</td>
+										</tr>
+									</table>
+								</div>
 							</article>
+
+						<!-- CV -->
+						<article id="artwork" class="panel">
+							<header>
+								<h2>Artwork</h2>
+							</header>
+							<table clas="table">
+								<tr>
+									<td><h3>Writings</h3></td>
+								</tr>
+								<tr><td>
+									<div class="row text-center">
+										<div class="col-sm-4">
+											<div class="thumbnail">
+												<img src="images/me.jpg" width="100" alt="Writing1">
+												<p><strong>Writing1</strong></p>
+												<p>...</p>
+												<button class="btn" data-toggle="modal" data-target="#myModal">Show</button></div>
+										</div>
+										<div class="col-sm-4">
+											<div class="thumbnail">
+												<img src="images/me.jpg" width="100" alt="Writing2">
+												<p><strong>Writing2</strong></p>
+												<p>...</p>
+												<button class="btn" data-toggle="modal" data-target="#myModal">Show</button></div>
+										</div>
+										<div class="col-sm-4">
+											<div class="thumbnail">
+												<img src="images/me.jpg" width="100" alt="Writing3">
+												<p><strong>Writing3</strong></p>
+												<p>...</p>
+												<button class="btn" data-toggle="modal" data-target="#myModal">Show</button></div>
+										</div>
+									</div>
+								</td></tr>
+								<tr><td><h3>Videos</h3></td></tr>
+								<tr><td>
+									<div class="row text-center">
+										<div class="col-sm-4">
+											<iframe width="250" src="https://www.youtube.com/embed/ncllfJy3h3s"
+													frameborder="0" allowfullscreen></iframe>
+											<p><strong>Video1</strong></p>
+										</div>
+										<div class="col-sm-4">
+											<iframe width="250" src="https://www.youtube.com/embed/ncllfJy3h3s"
+													frameborder="0" allowfullscreen></iframe>
+											<p><strong>Video2</strong></p>
+										</div>
+										<div class="col-sm-4">
+											<iframe width="250" src="https://www.youtube.com/embed/ncllfJy3h3s"
+													frameborder="0" allowfullscreen></iframe>
+											<p><strong>Video3</strong></p>
+										</div>
+									</div>
+								</td></tr>
+							</table>
+							<!-- Modal -->
+							<div class="modal fade" id="myModal" role="dialog">
+								<div class="modal-dialog">
+									<!-- Modal content-->
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<h4>Writing1</h4>
+										</div>
+										<div class="modal-body">
+										Text
+										</div>
+										<div class="modal-footer">
+											<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+												Cancel
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
 
 						<!-- Contact -->
 							<article id="contact" class="panel">
 								<header>
 									<h2>Contact</h2>
-
 								</header>
-
+								<div class="contact-style">
+								<table><tr>
+									<td class="contact-item"><a href="https://github.com/Vahidrostami" class="icon fa-github fa-5x"></a></td>
+									<td class="contact-item"><a href="https://www.facebook.com/Vahidrostam" class="icon fa-facebook-square fa-5x"></a></td>
+									<td class="contact-item"><a href="https://www.linkedin.com/in/vahid-rostami-a5792aba" class="icon fa-linkedin-square fa-5x"></a></td>
+									<td class="contact-item"><a href="mailto:v.rostami@fz-juelich.de" class="icon fa-envelope fa-5x"></a></td>
+								</tr></table>
+								</div>
 							</article>
 
 					</div>
