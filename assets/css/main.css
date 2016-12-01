@@ -22,11 +22,14 @@ Vahid Rostami
 	}
 
 	.contact-style {
-		margin: 4em;
+		margin-left:7em;
+		margin-right:1em;
+		margin-top:0em;
+		 
 	}
 
 	.contact-item {
-		margin:1em;
+		margin:3em;
 	}
 
 	body {
