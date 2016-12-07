@@ -86,13 +86,21 @@
 							</article>
 
 						<!-- CV -->
-						<article id="artwork" class="panel">
+						<article id="artwork" class="panel artwork-bkg">
 							<header>
-								<h2>Artistic Creation</h2>
+								<h1 align="center" style="color: white;">Artistic Creation</h1>
 							</header>
+							<ul style="height: 500px;">
+								<li style="display: inline;"><a href="#writings"><h2>Writings</h2></a></li>
+								<li  style="display: inline;"><a href="#photos"><h2>Photos</h2></a></li>
+                                <li style="display: inline;"><a href="#videos"><h2>Videos</h2></a></li>
+							</ul>
+                            <!--<h1 id="writings"></h1>-->
+                            <!--<h1 id="photos"></h1>-->
+                            <!--<h1 id="videos"></h1>-->
 							<table clas="table">
-								<tr>
-									<td><h3>Writings</h3></td>
+								<tr id="writings">
+									<td><h2>Writings</h2></td>
 								</tr>
 								<tr><td>
 									<div class="row text-center">
@@ -121,7 +129,7 @@
 								</td></tr>
 
 
-								<tr><td><h3>Photos</h3></td></tr>
+								<tr id="photos"><td><h2>Photos</h2></td></tr>
 								<tr><td>
 									<div class="row text-center">
 										<div class="col-sm-4">
@@ -148,7 +156,7 @@
 									</div>
 								</td></tr>
 
-								<tr><td><h3>Videos</h3></td></tr>
+								<tr id="videos"><td><h2>Videos</h2></td></tr>
 								<tr><td>
 									<div class="row text-center">
 										<div class="col-sm-4">
@@ -203,13 +211,8 @@
 								</tr></table>
 								</div>
 							</article>
-
 					</div>
-
-
 				<!-- Footer -->
-
-
 			</div>
 
 		<!-- Scripts -->
@@ -219,6 +222,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+            <script src="myscroll.js"></script>
 
 	</body>
 </html>
