@@ -1643,3 +1643,18 @@ Vahid Rostami
 .modal-header, .modal-body {
 	padding: 40px 50px;
 }
+
+.artwork-bkg {
+	background-image: url('../../images/physicsimage.jpg');
+	height: 2000px;
+	background-repeat:no-repeat;
+	background-size: 896px 600px;
+}
+.artwork-bkg li {
+	display: inline;
+
+}
+
+.artwork-bkg a {
+	color: white;
+}
