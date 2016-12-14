@@ -760,6 +760,7 @@ Vahid Rostami
 		background-image: url("images/overlay.png"), url("images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
+		background-attachment: scroll, scroll;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		color: #777777;
@@ -1648,7 +1649,8 @@ Vahid Rostami
 	background-image: url('../../images/physicsimage.jpg');
 	height: 2000px;
 	background-repeat:no-repeat;
-	background-size: 896px 600px;
+	/*background-size: 896px 600px;*/
+	background-size:cover;
 }
 .artwork-bkg li {
 	display: inline;
@@ -1657,4 +1659,15 @@ Vahid Rostami
 
 .artwork-bkg a {
 	color: white;
+}
+
+
+
+.brightness {
+    background-color: none;
+    display: inline-block;
+
+}
+.brightness img:hover {
+    opacity: .5;
 }
